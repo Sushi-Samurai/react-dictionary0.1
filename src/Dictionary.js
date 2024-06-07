@@ -39,7 +39,7 @@ export default function Dictionary() {
         <section>
           <form onSubmit={search}>
             <p className="form-title">
-              What word would you like to learn more about?
+              What other words would you like to learn more about?
             </p>
             <input type="search" onChange={handleKeywordChange} />
           </form>
