@@ -43,7 +43,7 @@ export default function Dictionary() {
             </p>
             <input type="search" onChange={handleKeywordChange} />
           </form>
-          <p className="form-hint">try searching for house, food, travel...</p>
+          <p className="form-prompt">try searching for food, art, travel...</p>
         </section>
         <Result result={result} />
         <Photos photos={photos} />
@@ -57,7 +57,9 @@ export default function Dictionary() {
             <p className="form-title">What word are you looking for?</p>
             <input type="search" onChange={handleKeywordChange} />
           </form>
-          <p className="form-hint">try searching for house, food, travel...</p>
+          <p className="form-prompt">
+            try searching for house, food, travel...
+          </p>
         </section>
       </div>
     );
