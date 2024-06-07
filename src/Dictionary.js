@@ -38,7 +38,9 @@ export default function Dictionary() {
       <div className="Dictionary">
         <section>
           <form onSubmit={search}>
-            <p className="form-title">What word are you looking for?</p>
+            <p className="form-title">
+              What word would you like to learn more about?
+            </p>
             <input type="search" onChange={handleKeywordChange} />
           </form>
           <p className="form-hint">try searching for house, food, travel...</p>

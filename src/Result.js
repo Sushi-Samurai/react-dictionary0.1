@@ -23,8 +23,8 @@ export default function Result(props) {
     return (
       <section>
         <p>
-          Sorry, we couldn't find the word you are looking for. Please check
-          your spelling or try another word.
+          I think you made that up... Please check your spelling or try another
+          word.
         </p>
       </section>
     );
